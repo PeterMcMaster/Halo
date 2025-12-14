@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "halo"
+version = "0.1.0"
+description = "Multimodal RAG system for semantic photo search with automatic album generation."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Halo Contributors" }]
+dependencies = [
+  "torch>=2.0.0",
+  "torchvision>=0.15.0",
+  "transformers>=4.35.0",
+  "open-clip-torch>=2.24.0",
+  "chromadb>=0.4.0",
+  "Pillow>=10.0.0",
+  "exifread>=3.0.0",
+  "streamlit>=1.28.0",
+  "openai>=1.0.0",
+  "google-generativeai>=0.8.0",
+  "python-dotenv>=1.0.0",
+  "numpy>=1.24.0",
+  "tqdm>=4.65.0",
+  "umap-learn>=0.5.0",
+  "matplotlib>=3.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/PeterMcMaster/Halo"
+Repository = "https://github.com/PeterMcMaster/Halo"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

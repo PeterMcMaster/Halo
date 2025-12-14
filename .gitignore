@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.env
+.env.*
+
+# OS noise
+.DS_Store
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Editors/IDE settings
+.vscode/
+.idea/
+
+# App-generated data
+vector_store/
+photos/albums.json
+react_components/result-grid/build/
