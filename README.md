@@ -24,6 +24,9 @@ Halo is a multimodal Retrieval-Augmented Generation (RAG) system for semantic ph
 - **Customizable parameters**: Adjust target number of albums and minimum photos per album
 - **Persistent storage**: Albums save to JSON and reload on app restart
 
+### Story-telling 
+- **Intelligent story-telling**: Leveraged Gemini API to deliver intelligent and relevant stories for auto-generated photo albums 
+
 ---
 
 ## Getting Started
